@@ -10,5 +10,5 @@ package Chapter5;
  * @author kc1002770
  */
 public class C5_46 {
-    
+
 }

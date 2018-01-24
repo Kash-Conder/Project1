@@ -1,17 +1,19 @@
 package Chapter2;
+
 import java.util.Scanner;
+
 /**
  * Program to calculate meal total cost in more depth than previous code
  *
  * @author Kash Conder
  */
-
 public class P2 {
-/**
- * Main Method
- *
- * @param args arguments from command line prompt
- */
+
+    /**
+     * Main Method
+     *
+     * @param args arguments from command line prompt
+     */
     public static void main(String[] args) {
 
         // Declare Vars

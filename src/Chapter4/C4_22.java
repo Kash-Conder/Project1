@@ -1,17 +1,19 @@
 package Chapter4;
+
 import java.util.Scanner;
+
 /**
  * Program to find if string 1 is a substring of string 2
  *
  * @author Kash Conder
  */
-
 public class C4_22 {
-/**
- * Main Method
- *
- * @param args arguments from command line prompt
- */
+
+    /**
+     * Main Method
+     *
+     * @param args arguments from command line prompt
+     */
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         //Prompt user to input string s1 and then s2

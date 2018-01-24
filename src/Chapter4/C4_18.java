@@ -1,16 +1,19 @@
 package Chapter4;
+
 import java.util.Scanner;
+
 /**
  * Program to discover year and major based on character and integer inputs
  *
  * @author Kash Conder
  */
 public class C4_18 {
-/**
- * Main Method
- *
- * @param args arguments from command line prompt
- */
+
+    /**
+     * Main Method
+     *
+     * @param args arguments from command line prompt
+     */
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 //Prompt user to enter letters for Major and status

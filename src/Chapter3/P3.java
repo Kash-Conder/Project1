@@ -1,4 +1,5 @@
 package Chapter3;
+
 import java.util.Scanner;
 
 /**
@@ -7,11 +8,12 @@ import java.util.Scanner;
  * @author Kash Conder
  */
 public class P3 {
-/**
- * Main Method
- *
- * @param args arguments from command line prompt
- */
+
+    /**
+     * Main Method
+     *
+     * @param args arguments from command line prompt
+     */
     public static void main(String[] args) {
 
         //Declare Vars

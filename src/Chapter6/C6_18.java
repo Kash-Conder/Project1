@@ -28,6 +28,13 @@ public class C6_18 {
         }
     }
 
+    /**
+     * Method to check if password meets requirements and limitations set
+     *
+     * @param password //contains the password set by user to be checked by us
+     * @return //returns "true" or "false" depending on if the variable
+     * "password" violates any of the rules set
+     */
     public static boolean isValid(String password) {
 //More vars
         int counter = 0;

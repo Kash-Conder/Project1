@@ -1,17 +1,19 @@
 package Chapter2;
+
 import java.util.Scanner;
+
 /**
  * Program to convert given temp in celsius to fahrenheit
  *
  * @author Kash Conder
  */
-
 public class C2_1 {
-/**
- * Main Method
- *
- * @param args arguments from command line prompt
- */
+
+    /**
+     * Main Method
+     *
+     * @param args arguments from command line prompt
+     */
     public static void main(String[] args) {
         //Declaring Vars
         Scanner scan = new Scanner(System.in);

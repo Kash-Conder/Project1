@@ -5,13 +5,13 @@ package Chapter1;
  *
  * @author Kash Conder
  */
-
 public class C1_8 {
-/**
- * Main Method
- *
- * @param args arguments from command line prompt
- */
+
+    /**
+     * Main Method
+     *
+     * @param args arguments from command line prompt
+     */
     public static void main(String[] args) {
         double radius; // Declare radius
         double area; // Declare area

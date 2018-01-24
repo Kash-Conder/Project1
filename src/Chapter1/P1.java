@@ -5,13 +5,13 @@ package Chapter1;
  *
  * @author Kash Conder
  */
-
 public class P1 {
-/**
- * Main Method
- *
- * @param args arguments from command line prompt
- */
+
+    /**
+     * Main Method
+     *
+     * @param args arguments from command line prompt
+     */
     public static void main(String[] args) {
         //Display message 
         System.out.println("Welcome to Java!");

@@ -1,17 +1,19 @@
 package Chapter3;
+
 import java.util.Scanner;
+
 /**
  * Program to decide which package has the best pricing based on unit prices
  *
  * @author Kash Conder
  */
-
 public class C3_33 {
-/**
- * Main Method
- *
- * @param args arguments from command line prompt
- */
+
+    /**
+     * Main Method
+     *
+     * @param args arguments from command line prompt
+     */
     public static void main(String[] args) {
 
         //Declare Vars

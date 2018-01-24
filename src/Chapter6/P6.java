@@ -3,7 +3,7 @@ package Chapter6;
 import java.util.Scanner;
 
 /**
- * Program for converting currencies
+ * Program for converting currencies based on dollar to "x" conversions
  *
  * @author Kash Conder
  */
@@ -33,7 +33,7 @@ public class P6 {
         Scanner input = new Scanner(System.in);
         System.out.print("How many Euros does a dollar buy? ");
         euro = input.nextDouble();
-        System.out.print("How many Pound Sterling does a dollar buy? ");
+        System.out.print("How many Pounds does a dollar buy? ");
         pounds = input.nextDouble();
         System.out.print("How many Yen does a dollar buy? ");
         yen = input.nextDouble();
@@ -70,7 +70,15 @@ public class P6 {
         } while (reply.equalsIgnoreCase("yes"));
     }
 
-    // Conversion
+    /**
+     * Method for returning Double values for conversions
+     *
+     * @param dollars //has the original value set by user to be converted
+     * @param exchangeRate //has the conversion rate of U.S dollars to the
+     * chosen currency
+     * @return //method returns the total amount of money received and inserts
+     * it into the variable "Conversion"
+     */
     public static double conversion(double dollars, double exchangeRate) {
         // Exchange service charge
         double result = (dollars > 100.0) ? dollars * 0.95 * exchangeRate : dollars * 0.90 * exchangeRate;

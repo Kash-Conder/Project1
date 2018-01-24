@@ -1,16 +1,19 @@
 package Chapter4;
+
 import java.util.Scanner;
+
 /**
  * Program to decide which bidder's offer is best based on hourly rate and hours
  *
  * @author Kash Conder
  */
 public class P4 {
-/**
- * Main Method
- *
- * @param args arguments from command line prompt
- */
+
+    /**
+     * Main Method
+     *
+     * @param args arguments from command line prompt
+     */
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 

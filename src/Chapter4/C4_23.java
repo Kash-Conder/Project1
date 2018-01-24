@@ -1,17 +1,19 @@
 package Chapter4;
+
 import java.util.Scanner;
+
 /**
  * Program to find employee's salary
  *
  * @author Kash Conder
  */
-
 public class C4_23 {
-/**
- * Main Method
- *
- * @param args arguments from command line prompt
- */
+
+    /**
+     * Main Method
+     *
+     * @param args arguments from command line prompt
+     */
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
